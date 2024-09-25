@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2474216815941211066}
   - component: {fileID: 6799064021514737013}
+  - component: {fileID: 2201916306055439396}
   m_Layer: 0
   m_Name: Orbit
   m_TagString: Untagged
@@ -47,6 +48,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationSpeed: {x: 0, y: 10, z: 0}
+--- !u!114 &2201916306055439396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3458521757447680555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b7550c59349d8041b336479cfc2ad2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BodyRotation: {fileID: 1670618301816478735}
+  preset: {fileID: 11400000, guid: 02d69d87b48f2b148ab1b270c40460f0, type: 2}
+  PlanetTransform: {fileID: 3960674604624793369}
 --- !u!1 &5079533387934903838
 GameObject:
   m_ObjectHideFlags: 0
@@ -175,7 +191,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3960674604624793369}
-  - component: {fileID: 6591336628944975667}
   m_Layer: 0
   m_Name: Planet
   m_TagString: Untagged
@@ -199,20 +214,6 @@ Transform:
   - {fileID: 4369049450572918392}
   m_Father: {fileID: 2474216815941211066}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6591336628944975667
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6216786125898487897}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b7550c59349d8041b336479cfc2ad2f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  BodyRotation: {fileID: 1670618301816478735}
-  preset: {fileID: 11400000, guid: 50ad1ad9160f2094dbbe004849dec888, type: 2}
 --- !u!1 &7611665672934222740
 GameObject:
   m_ObjectHideFlags: 0

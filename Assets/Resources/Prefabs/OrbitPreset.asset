@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e37ddf9962f70b045a5b14d6febfc360, type: 3}
-  m_Name: PlanetPreset
+  m_Name: OrbitPreset
   m_EditorClassIdentifier: 
-  DistanceFromOrbit: 10.11
-  BodySize: 2.35
-  RotationSpeed: {x: 8.79, y: 4.81, z: 336.3}
+  DistanceFromOrbit: 9.38
+  BodySize: 1.74
+  RotationSpeed: {x: 7.29, y: 762.9, z: 0}

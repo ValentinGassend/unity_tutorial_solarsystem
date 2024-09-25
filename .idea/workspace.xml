@@ -6,8 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="e9ecaa1f-8e07-419b-832d-09d862a4c26f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Orbit.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Orbit.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/PlanetPreset.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/PlanetPreset.asset.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InputController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InputController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Planet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Orbit.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Planet.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Orbit.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlanetPreset.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/OrbitPreset.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlanetPreset.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/OrbitPreset.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/default.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/default.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +75,7 @@
       <updated>1727162725685</updated>
       <workItem from="1727162727157" duration="1664000" />
       <workItem from="1727164465774" duration="110000" />
-      <workItem from="1727164591139" duration="17823000" />
+      <workItem from="1727164591139" duration="19253000" />
     </task>
     <servers />
   </component>

@@ -7,7 +7,7 @@ public class GameController : BaseController<GameController>
 
     public float simulationSpeed = 1.0f;
     public float? previousSimulationSpeed;
-
+    public Orbit[] orbitsPrefabs;
     public void Pause()
     {
        if (this.simulationSpeed == 0)
@@ -32,6 +32,18 @@ public class GameController : BaseController<GameController>
     public void Start()
     {
         InputController.Instance().OnTogglePause += Pause;
+
+        if (this.orbitsPrefabs.Length == 0)
+        {
+            Debug.LogError("No orbits prefabs found");
+        }
+        else
+        {
+            foreach (Orbit orbit in this.orbitsPrefabs)
+            {
+                GameObject.Instantiate(orbit);
+            }
+        }
     }
 
     // Update is called once per frame
