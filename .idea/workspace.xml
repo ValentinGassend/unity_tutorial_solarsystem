@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9ecaa1f-8e07-419b-832d-09d862a4c26f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/InputController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Textures/8081_earthbump10k.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Textures/8081_earthbump10k.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Textures/8081_earthmap10k.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Textures/8081_earthmap10k.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Textures/moonbump4k.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Textures/moonbump4k.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InputController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InputController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +68,7 @@
       <updated>1727162725685</updated>
       <workItem from="1727162727157" duration="1664000" />
       <workItem from="1727164465774" duration="110000" />
-      <workItem from="1727164591139" duration="16265000" />
+      <workItem from="1727164591139" duration="17823000" />
     </task>
     <servers />
   </component>

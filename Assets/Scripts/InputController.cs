@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class InputController : MonoBehaviour
+public class InputController : BaseController<InputController>
 {
     public delegate void InputEvent();
-    public static event InputEvent OnTogglePause;
+    public event InputEvent OnTogglePause;
     // Start is called before the first frame update
     void Start()
     {

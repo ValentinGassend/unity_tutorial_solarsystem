@@ -2,21 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameController : MonoBehaviour
+public class GameController : BaseController<GameController>
 {
 
     public float simulationSpeed = 1.0f;
     public float? previousSimulationSpeed;
-    public static GameController instance = null;
-
-    public static GameController Instance()
-    {
-        if (instance == null)
-        {
-            instance = FindObjectOfType<GameController>();
-        }
-        return instance;
-    }
 
     public void Pause()
     {
@@ -41,8 +31,7 @@ public class GameController : MonoBehaviour
     // Start is called before the first frame update
     public void Start()
     {
-        var inputController = FindObjectOfType<InputController>();
-        InputController.OnTogglePause += Pause;
+        InputController.Instance().OnTogglePause += Pause;
     }
 
     // Update is called once per frame
