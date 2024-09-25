@@ -4,9 +4,22 @@ using UnityEngine;
 
 public class GameController : BaseController<GameController>
 {
+    public delegate void SpeedEvent(float newSpeed);
+    public event SpeedEvent OnSimulationSpeedChanged;
 
-    public float simulationSpeed = 1.0f;
+    private float _speed = 1;
+    public float simulationSpeed {get{
+        return _speed;
+    } set {
+        _speed = value;
+        if (this.OnSimulationSpeedChanged != null)
+        {
+            this.OnSimulationSpeedChanged(value);
+        }
+    }
+    }
     public float? previousSimulationSpeed;
+
     public Orbit[] orbitsPrefabs;
     public void Pause()
     {
