@@ -20,6 +20,8 @@ public class Orbit : MonoBehaviour
         // move planet child to distance
         this.PlanetTransform.localPosition = new Vector3(0, 0, this.preset.DistanceFromOrbit);
 
+        // modifier le material du body de la planete
+        this.BodyRotation.gameObject.GetComponent<Renderer>().material = this.preset.BodyMaterial;
         // set planet size
         this.BodyRotation.gameObject.transform.localScale = new Vector3(this.preset.BodySize, this.preset.BodySize, this.preset.BodySize);
 

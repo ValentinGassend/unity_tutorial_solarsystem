@@ -14,4 +14,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DistanceFromOrbit: 9.38
   BodySize: 1.74
+  BodySizeCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 0
+    m_RotationOrder: 4
   RotationSpeed: {x: 7.29, y: 762.9, z: 0}
+  BodyMaterial: {fileID: 2100000, guid: 1ee3f9db76c438a4881e42e6da2ce59a, type: 2}

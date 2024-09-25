@@ -8,5 +8,7 @@ public class OrbitPreset : ScriptableObject
 
     public float DistanceFromOrbit;
     public float BodySize;
+    public AnimationCurve BodySizeCurve;
     public Vector3 RotationSpeed;
+    public Material BodyMaterial;
 }
